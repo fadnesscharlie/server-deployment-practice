@@ -6,7 +6,7 @@ const app = express();
 const notFoundHandlers = require('./handlers/404.js');
 const errorHandler = require('./handlers/500.js');
 const stamper = require('./middleware/stamper.js');
-const logger = require('./middleware/logger.js');
+// const logger = require('./middleware/logger.js');
 
 
 
